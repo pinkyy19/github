@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>HUMAN ACTIVITY RECOGNITION SYSTEM USING SMARTPHONES</title>
+</head>
+<body bgcolor="Azure">
+
+<h1>HUMAN ACTIVITY RECOGNITION SYSTEM USING SMARTPHONES</h1>
+<p> Pinki Pradhan<br>CS660-Project Proposal<br></p>
+<BLOCKQUOTE>
+<h3>INTRODUCTION</h3>
+<p>A variety of real time sensing applications are becoming available , especially in the life logging , fitness domains. These applications use mobile sensors embedded in smartphones to recognise human activities in order to get a better understanding of human behaviour.
+   HAR system is required to recognize six basic human activities such as walking,jogging,moving upstairs,downstairs,running,sleeping by training a supervised learning model and displaying activities result as per<br> input received from our accelerometer sensor and CNN model.
+<img src="C:\Users\HP\HRA.jpg"  width="150" height="150">
+</p>
+
+<p>
+HRA has wide application in medical resrarch and human survey system.Here  we will design a robust activity recognition system based on smartphone.The system uses 3 dimensional smartphone accelerometer as the only sensor to collect data from which features will be generated in both time and frequency domain.
+<img src="C:\Users\HP\micromachines-06-01100-g002(1).png"  width="150" height="150">
+</p>
+
+<h3>MOTIVATIONS</h3>
+<p>A Human Recognition System has various approaches, such as vision-based and
+sensor-based, which further categorized into wearables, object-tagged, dense sensing,
+etc. Before moving further, there also exist some design issues in HAR systems, such
+as selection of different types of sensors, data collection related set of rules, recognition
+performance, how much energy is consumed, processing capacity, and flexibility .
+Keeping all these parameters in mind, it is important to design an efficient and lightweight
+human activity recognition model. A network for mobile human activity recognition has
+been proposed using long-short term memory approach for human activity recognition
+using triaxial accelerometers data. 
+</p>
+
+<h4> BACKGROUND </h4>
+<p>—The first HAR approach contains a large number of sensor type technologies that can be worn on-body known as wearable sensors, ambient sensors, and,
+together, both will make hybrid sensors that help in measuring quantities of human
+body motion. Various opportunities can be provided by these sensor technologies
+which can improve the robustness of the data through which human activities can be
+detected and also provide the services based on sensed information from real-time
+environments, such as cyber-physical-social systems there is also a type of magnetic senors when embedded in smartphone can track the positioning without any
+extra cost.
+2. Vision-based—RGB video and depth cameras being used to obtain human actions.
+3. Multimodal—Sensors data and visual data are being used to detect human activities
+</p>
+
+<h4>Idea</h3>
+<p>Idea for this project is 1st to collect data then some preprocessing is to be done on raw collected data.After balancing and standardizing it i will plot it on scatter plane by using matplot library.Then by using these graphs frame preparation is to be done.After that CNN model will be used to classify human activities.Then for accuracy measurement learning curve and confusion matrix will be plotted.</p>
+
+<h3>Data Sources</h3>
+<p>I will be using datasets in my projest from this giben below site.
+ Source - http://www.cis.fordham.edu/wisdm/dataset.php
+ If possible i will use accelerometer data collected from differnt phones with different timestamps.
+</p>
+
+
+
+
+<h3>Midway Target </h3>
+  
+<p>BY  MIDWAY i will try to cover upto
+  1. collection of datasets
+  2. Balancing data sets
+  3. Standardizing datasets
+  4. Framepreparation
+  5. Understanding how to implement CNN
+  6. Implementation of 2D CNN(if time permits)
+</p>
+<p>
+AFTER  MIDWAY
+1.Implementing CNN model(if not done by midway)
+2.plotting learning curve
+3.Confusion matrix
+4.All possible improvements
+5.Report writing
+</p>
+<h3>Expected Results</h3>
+<p>Prediction of six basic human activities such as walking,joging,standing,sitting,moving upstairs,moving downstairs by using accelerometer data and CNN model. 
+</p>
+<h3>Relevant papers</h3>
+  
+<p>Agarwal, P.; Alam, M. A lightweight deep learning model for human activity recognition on edge devices. Procedia Comput. Sci. 2020, 167, 2364–2373. 
+</p>
+<p>
+Shugang Zhang, Zhiqiang Wei, Jie Nie, Lei Huang, Shuang Wang, Zhen Li, "A Review on Human Activity Recognition Using Vision-Based Method", Journal of Healthcare Engineering, vol. 2017, Article ID 3090343, 31 pages, 2017. https://doi.org/10.1155/2017/3090343
+</p>
+<p>
+
+A. Murad and J. Y. Pyun, “Deep recurrent neural networks for human activity recognition,” Sensors (Switzerland), vol. 17, p. 11, 2017.View at: Publisher Site | Google Scholar
+</p>
+</BLOCKQUOTE>	
+</body>
+</html>
+
